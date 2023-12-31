@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 #region Delegates
 
@@ -57,11 +59,43 @@
 #region LambdaExpression
 namespace LambdaExpression
 {
+    public class Books
+    {
+        public string Title { get; set; }
+        public int Price { get; set; }
+    }
+    public class BookRepository
+    {
+        public List<Books> GetBooks()
+        {
+            return new List<Books>
+            {
+                new Books(){ Title ="Learn C# with Mosh",Price=10},
+                new Books(){ Title = "Learn JS with Tim Correy",Price = 20},
+                new Books(){ Title = "Learn TypeScript with Zia Khan",Price= 34}
+            };
+
+        }
+    }
     class Program
     {
+        
+        //static int Square(int number)
+        //{
+        //    return number * number;
+        //}
+        //static List<Books> isCheaperBook(List<Books> books)
+        //{
+        //    return books.Where(x => x.Price == 10);
+        //}
         public static void Main(string[] args)
         {
+            //Func<int, int> square = number => number * number;
+            //Console.WriteLine(square(10));
 
+            var books = new BookRepository().GetBooks() ;
+            books.Find(x=>x.Price>10);
+            Console.WriteLine(books.First(x=>x.Price > 20).Price);
         }
     }
 }
