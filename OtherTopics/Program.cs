@@ -50,15 +50,27 @@ namespace OtherTopics
 
             #region Nullable
             Nullable<DateTime> dateTime = null;
-            DateTime? date = DateTime.Today ;
-            Console.WriteLine("GetValueOrDefault(): " + date.GetValueOrDefault());
-            Console.WriteLine("HasValue: "+date.HasValue);
-            Console.WriteLine("Value: "+date.Value);
+            //DateTime? date = DateTime.Today ;
+            //Console.WriteLine("GetValueOrDefault(): " + date.GetValueOrDefault());
+            //Console.WriteLine("HasValue: "+date.HasValue);
+            //Console.WriteLine("Value: "+date.Value);
 
-            //null coalescing operator c#
-            DateTime dateTime1 = date ?? DateTime.MaxValue;
+            ////null coalescing operator c#
+            //DateTime dateTime1 = date ?? DateTime.MaxValue;
             #endregion
 
+            #region Dynamic
+            //object obj = "Hash";
+            //var method = obj.GetType().GetMethod("GetHashCode");
+            //method.Invoke(null,null);
+
+            //dynamic excelObject = "Arbab";
+            //excelObject.Optimize();
+
+            dynamic name = "Arbab";
+            name = 123;
+            Console.WriteLine(++name);
+            #endregion
         }
     }
 }
