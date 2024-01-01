@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensibility", "..\Extensi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "..\Polymorphism\Polymorphism.csproj", "{A0B615BD-A314-4132-BC7E-7D5C273C3CD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelegates", "..\EventsAndDelegates\EventsAndDelegates.csproj", "{B85BAB18-D069-4AF5-978F-2A2B3D5EEF2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsAndDelegates", "..\EventsAndDelegates\EventsAndDelegates.csproj", "{B85BAB18-D069-4AF5-978F-2A2B3D5EEF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "..\ExtensionMethods\ExtensionMethods.csproj", "{DB81DD72-1622-41CD-A30C-729F5517F9C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B85BAB18-D069-4AF5-978F-2A2B3D5EEF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B85BAB18-D069-4AF5-978F-2A2B3D5EEF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B85BAB18-D069-4AF5-978F-2A2B3D5EEF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB81DD72-1622-41CD-A30C-729F5517F9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB81DD72-1622-41CD-A30C-729F5517F9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB81DD72-1622-41CD-A30C-729F5517F9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB81DD72-1622-41CD-A30C-729F5517F9C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
