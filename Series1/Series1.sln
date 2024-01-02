@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "..\Exte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtherTopics", "..\OtherTopics\OtherTopics.csproj", "{956E07F5-F40F-429B-A555-B3D8251AA7A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "..\Async\Async.csproj", "{BDAD6B36-2D97-4634-807F-C22EE553021F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async", "..\Async\Async.csproj", "{BDAD6B36-2D97-4634-807F-C22EE553021F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioTips", "..\VisualStudioTips\VisualStudioTips.csproj", "{F42160C3-8FF8-4463-B56E-FD4F37067ECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{BDAD6B36-2D97-4634-807F-C22EE553021F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDAD6B36-2D97-4634-807F-C22EE553021F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDAD6B36-2D97-4634-807F-C22EE553021F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42160C3-8FF8-4463-B56E-FD4F37067ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42160C3-8FF8-4463-B56E-FD4F37067ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42160C3-8FF8-4463-B56E-FD4F37067ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42160C3-8FF8-4463-B56E-FD4F37067ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
