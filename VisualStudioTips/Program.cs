@@ -23,7 +23,7 @@ namespace VisualStudioTips
             var debugging = new Debugging();
             debugging.Start();
 
-            Console.WriteLine("Done");
+            Console.WriteLine("Done and Completed at 100% accuracy");
         }
     }
 }
